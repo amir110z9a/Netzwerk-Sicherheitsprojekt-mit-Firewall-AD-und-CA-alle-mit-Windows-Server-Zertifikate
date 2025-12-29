@@ -1,4 +1,6 @@
 
+Dieses Repository dokumentiert die Konzeption und Umsetzung eines beispielhaften, abgesicherten Unternehmensnetzwerks in einer Laborumgebung.  
+Im Projekt werden eine segmentierte Netzwerkstruktur mit zentraler Firewall, Active Directory, File Server, Certificate Authority (CA) sowie Monitoring mit PRTG und ein Backup-Konzept aufgebaut und dokumentiert.
 
 ---
 
