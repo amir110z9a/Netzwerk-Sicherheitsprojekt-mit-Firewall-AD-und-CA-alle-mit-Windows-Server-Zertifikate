@@ -68,3 +68,9 @@ und wirksame Sicherheitsbarriere dar, insbesondere durch:
 - Reduktion unnötiger Kommunikationspfade
 
 ---
+## Installation und Konfiguration
+
+- [Basic Installation und Initialkonfiguration](Basic-Installation.md)
+
+
+
