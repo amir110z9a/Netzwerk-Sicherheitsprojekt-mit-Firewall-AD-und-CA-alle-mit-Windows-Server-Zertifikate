@@ -53,3 +53,31 @@ um die weitere Konfiguration vorzunehmen.
 
 **Abbildung:** Aufbau der Verbindung zur Firewall über den WatchGuard System Manager
 
+> **Hinweis (Sicherheit):**  
+> Für die initiale Verbindung zur Firewall wurden die werkseitigen Standard-Zugangsdaten
+> (Standard-Benutzername und -Passwort) verwendet 2 Kontos: Status readonly und admin readwrite.
+ 
+## Schritt 2: Statische IP-Konfiguration der Firewall-Interfaces
+
+Nach erfolgreicher Verbindung zur Firewall erfolgt die Konfiguration
+der statischen IP-Adressen auf den einzelnen Netzwerk-Interfaces.
+Die Firewall fungiert dabei als Gateway für die jeweiligen Netzwerksegmente.
+
+### Konfiguration LAN1 – Admin-Netz
+
+- Subnetz: `192.168.10.0/24`
+- IP-Adresse des Firewall-Interfaces (Gateway): `192.168.10.1`
+- Funktion:
+  - Gateway für Administratoren
+
+
+### Konfiguration LAN2 – Client-Netz
+
+- Subnetz: `192.168.20.0/24`
+- IP-Adresse des Firewall-Interfaces (Gateway): `192.168.20.1`
+- Funktion:
+  - Gateway für Benutzer-Clients
+
+
+
+
